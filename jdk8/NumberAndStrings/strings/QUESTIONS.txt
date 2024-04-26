@@ -1,4 +1,4 @@
-1.
+1. It's the length of the initial string + 16: 26 + 16 = 42.
 
 2.a. 32
 2.b. "e"
