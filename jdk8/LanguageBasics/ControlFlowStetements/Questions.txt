@@ -1,0 +1,5 @@
+1: IF-THEN
+2: SWITCH
+3: DO WHILE, bottom
+4: for ( ; ; ) {}
+5: While(true) {}

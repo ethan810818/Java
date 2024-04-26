@@ -1,0 +1,10 @@
+1: Operator may be used in building EXPRESSIONS, which compute values.
+2: Expressions are the core components of STATEMENTS.
+3: Statements may be grouped into BLOCKS.
+4: The following code sniped is an example of a COMPOUND.
+5: Statements are roughly equivalent to sentences in natural languages, but instead of ending with a period, a statement ends with a semicolon(;).
+
+6: BRACES
+
+4/6 CORRECT
+FAIL: 6

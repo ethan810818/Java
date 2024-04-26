@@ -1,0 +1,10 @@
+1.a
+- toHexString(int i) => true
+
+1.b
+- parseInt(String s) => false
+
+1.c
+- isNaN(double d) => true
+
+2. true, vì Long về bản chất nó là Integer, chỉ khác ở chỗ sức chứa to hơn Integer => false

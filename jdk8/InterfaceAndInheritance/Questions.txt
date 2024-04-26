@@ -1,0 +1,8 @@
+1. charAt(int index), length(), subSequence(int start, int end), toString().
+2. Interface không chứa logic của method, nó chỉ define chữ ký của method
+3.
+public interface SomethingIsWrong {
+    void aMethod(int aValue);
+}
+
+4. Có

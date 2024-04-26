@@ -1,0 +1,8 @@
+1.
+
+2.a. 32
+2.b. "e"
+2.c. char value = hannah.toUpperCase().charAt(15);
+3. "car"
+
+

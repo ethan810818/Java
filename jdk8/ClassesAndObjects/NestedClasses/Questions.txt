@@ -1,0 +1,19 @@
+1. Thiếu static
+
+2.a. What static nested class does Box define?
+- 	Box.Filler,
+-   JComponent.AccessibleJComponent,
+-   Container.AccessibleAWTContainer,
+-   Component.AccessibleAWTComponent, 
+-   Component.BaselineResizeBehavior, 
+-   Component.BltBufferStrategy, 
+-   Component.FlipBufferStrategy,
+
+2.b. NULL
+
+2.C.
+-   JComponent
+
+2.d.
+
+2.e. 

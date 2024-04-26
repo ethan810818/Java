@@ -1,0 +1,20 @@
+1.
+    a. What are the class variables?
+    - public static int x = 7;
+
+    b. What are the instance variables?
+    - public int y = 3;
+
+    c. What is the output from the following code:
+
+    a.y = 5
+    b.y = 6
+    a.x = 2
+    b.x = 2
+    IndentifyMyParts.x = 2
+
+
+    Giải thích: x là static-variable, nên sau khi chạy từ trên xuống dưới, x sẽ = 2 vì:
+    a.x = 1; //khi chạy đến đây, x = 1, giá trị này sẽ được áp dụng cho toàn bộ các object được tạo ra từ IdentifyMyParts
+    b.x = 2; //tiếp theo x lại được thay đổi thành 2, nó đã ghi đè lên giá trị 1, giờ x = 2
+

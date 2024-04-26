@@ -1,0 +1,4 @@
+aValue = 8933.234; //Biểu thức gán
+aValue++; //increment statement
+System.out.println("Hello World!"); //method invocation statement
+Bicycle myBike = new Bicycle(); //object creation statement

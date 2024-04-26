@@ -1,0 +1,6 @@
+1: >, +
+2.a: i = 11, n = 0
+2.b: i = 11, n = 1
+3: !
+4: == operator dùng để so sánh, = operator dùng để gán
+5: IF result == TRUE {value1}  ELSE {value2}

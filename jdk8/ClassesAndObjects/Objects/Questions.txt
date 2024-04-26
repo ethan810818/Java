@@ -1,0 +1,31 @@
+1. 
+Syntax error:
+Rectangle myRect;
+- miss "new" keyword
+- miss "Initialization" of Rectangle
+
+myRect.width = 40;
+myRect.height = 50;
+
+myRect.area();
+
+
+Fix: 
+Rectangle myRect = new Rectangle();
+myRect.setWidth(40);
+myRect.setHeight(50);
+myRect.area(width, height);
+
+
+2. 
+
+
+3.  A program does not explicitly destroy objects. 
+    A program can set all references to an object to null so that it becomes eligible for garbage collection. 
+    But the program does not actually destroy objects.
+
+
+
+
+
+

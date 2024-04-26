@@ -1,0 +1,6 @@
+1:
+a. Which method overrides a method in the superclass?
+- methodOne, methodThree => methodTwo is correct
+
+b. Which method hides a method in the superclass?
+- methodTwo, methodFour => methodFour is correct
