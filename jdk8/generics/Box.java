@@ -13,7 +13,7 @@ public class Box<T> {
 
     public <U extends Number> void inspect(U u) {
         System.out.println("T:" + t.getClass().getName());
-        System.out.println("U:" +u.getClass().getName());
+        System.out.println("U:" + u.getClass().getName());
     }
 
     public static void main(String[] args) {
