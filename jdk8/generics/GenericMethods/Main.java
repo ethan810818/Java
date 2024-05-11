@@ -1,6 +1,15 @@
 package generics.GenericMethods;
 
 public class Main {
+
+    public static <T extends Comparable<T>> int countGreaterThan(T[] anArray, T elem) {
+        int count = 0;
+        for (T e : anArray) 
+            if (e.compareTo(elem) > 0)
+                ++count;
+        return count;
+    }
+
     public static void main(String[] args) {
         Pair<Integer, String> p1 = new Pair<>(1, "apple");
         Pair<Integer, String> p2 = new Pair<>(2, "pear");
