@@ -1,5 +1,9 @@
 package generics;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class BoxDemo {
     public static <U> void addBox(U u, java.util.List<Box<U>> boxes) {
         Box<U> box = new Box<>();
@@ -21,5 +25,9 @@ public class BoxDemo {
         BoxDemo.<Integer>addBox(Integer.valueOf(20), listOfIntegerBoxes);
         BoxDemo.<Integer>addBox(Integer.valueOf(30), listOfIntegerBoxes);
         BoxDemo.outputBoxes(listOfIntegerBoxes);
+
+        Map<String, List<String>> myMapHistory = new HashMap<String, List<String>>();
+        Map<String, List<String>> myMapNow = new HashMap<>();
+        Map<String, List<String>> myMapError = new HashMap();
     }
 }
