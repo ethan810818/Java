@@ -10,5 +10,15 @@ public class Node {
     }
 
     public Comparable getData() { return data; }
+
+    public static <T> int count(T[] anArray, T elem) {
+        int cnt = 0;
+        for (T e : anArray)
+            if (e.equals(elem))
+                ++cnt;
+            return cnt;
+    }
+
     
+
 }
