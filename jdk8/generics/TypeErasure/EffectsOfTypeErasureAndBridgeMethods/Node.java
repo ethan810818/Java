@@ -1,4 +1,4 @@
-package TypeErasure.EffectsOfTypeErasureAndBridgeMethods;
+package generics.TypeErasure.EffectsOfTypeErasureAndBridgeMethods;
 
 public class Node {
     public Object data;
