@@ -1,4 +1,4 @@
-package TypeErasure.NonReifiableTypes;
+package generics.TypeErasure.NonReifiableTypes;
 
 import java.util.ArrayList;
 import java.util.Arrays;

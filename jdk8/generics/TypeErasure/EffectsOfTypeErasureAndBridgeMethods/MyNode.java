@@ -1,4 +1,4 @@
-package TypeErasure.EffectsOfTypeErasureAndBridgeMethods;
+package generics.TypeErasure.EffectsOfTypeErasureAndBridgeMethods;
 
 public class MyNode extends Node {
     public MyNode(Integer data) { super(data); }

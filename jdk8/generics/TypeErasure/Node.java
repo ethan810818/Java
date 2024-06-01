@@ -1,4 +1,4 @@
-package TypeErasure;
+package generics.TypeErasure;
 
 public class Node {
     private Comparable data;
@@ -19,6 +19,6 @@ public class Node {
             return cnt;
     }
 
-    
+
 
 }
